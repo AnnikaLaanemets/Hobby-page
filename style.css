@@ -1,0 +1,151 @@
+body {
+  background: radial-gradient(
+    circle at -0.2% 99.7%,
+    rgb(134, 33, 100) 0%,
+    rgb(216, 86, 120) 100.2%
+  );
+  color: #42103b;
+  font-size: 26px;
+  font-family: Constantia;
+  line-height: 1.6;
+}
+
+.container {
+  width: 850px;
+  opacity: 0.88;
+  background-color: #f7f7f7;
+  padding: 40px;
+  border: 5px solid #1abb9c;
+  margin: 35px auto;
+  border-radius: 25px;
+}
+
+.theme-button {
+  display: block;
+  background-color: #9f316a;
+  color: #f7f7f7;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-block-start: 2%;
+  font-size: 22px;
+  transition: all 500ms ease-in-out;
+}
+
+.theme-button:hover {
+  background-color: #f7f7f7;
+  color: #814278;
+}
+.photos {
+  display: inline-flex;
+  justify-content: center;
+}
+.bigpicture {
+  width: 500px;
+}
+
+img {
+  width: 290px;
+  border: 2px solid #1abb9c;
+  border-radius: 10px;
+  transition: all 500ms ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.5);
+}
+
+.collection {
+  display: grid;
+  margin-left: 25px;
+  grid-gap: 15px;
+}
+
+h1 {
+  font-size: 38px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 34px;
+}
+
+p {
+  padding: 20px;
+}
+
+.workout {
+  display: block;
+  color: #42103b;
+  font-size: 24px;
+  padding: 15px;
+  border: 1px solid #9f316a;
+  border-radius: 30px;
+  margin: 50px auto;
+  background-color: #1abb9c;
+  transition: all 500ms ease-in-out;
+  box-shadow: 0px 3px 8px 0px rgba(14, 1, 10, 0.5);
+}
+
+.workout:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+a {
+  color: #9f316a;
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+.BW {
+  background: linear-gradient(
+    180.2deg,
+    rgb(120, 85, 137) -6.9%,
+    rgb(35, 9, 31) 86.7%
+  );
+}
+
+.BW .container {
+  filter: grayscale(90%);
+  opacity: 0.75;
+}
+
+.BW .theme-button {
+  color: #42103b;
+  background-color: #2bb499;
+}
+
+.BW .theme-button:hover {
+  background-color: #f7f7f7;
+}
+
+.BW .workout {
+  background-color: #c95e93;
+}
+
+.BW .workout:hover {
+  background-color: #f7f7f7;
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 450px;
+    padding: 20px;
+  }
+
+  .bigpicture {
+    width: 250px;
+  }
+  img {
+    width: 120px;
+  }
+  p {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Barre</title>
+  </head>
+  <body>
+    <button class="theme-button">Change theme</button>
+    <div class="container">
+      <h1>BARRE</h1>
+      <h2>My favorite workout</h2>
+      <div class="photos">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/315/original/dancer.jpg?1671273807"
+          class="bigpicture"
+        />
+        <div class="collection">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/316/original/9-mistakes-your-making-at-barre3-718x581c.jpg?1671273835"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/318/original/1650a4b3d00cafbf26ee9a20460231ed.jpg?1671273943"
+          />
+
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/317/original/9-mistakes-your-making-at-barre4-718x581c.jpg?1671273926"
+          />
+        </div>
+      </div>
+      <br />
+      <hr />
+
+      <p>
+        Barre is a low-impact workout technique inspired by elements of ballet,
+        yoga, and pilates. Barre classes typically focus on small, pulsing
+        movements with emphasis on form, alignment and core engagement. The
+        exercises target muscles that support and stabilise the body and which
+        are often neglected in everyday life and by other forms of exercise.
+        Regular workout improves physical conditions like strength, flexibility,
+        posture, balance, endurance as well as mental health through
+        mindfulness, reduced stress and better sleep.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Barre_(exercise)" target="_blank"
+        >📖Read more on Wikipedia</a
+      >
+      <a
+        class="button-link"
+        href="https://www.youtube.com/watch?v=KL_fP1Wi4Fk"
+        target="_blank"
+      >
+        <button class="workout">Try online class</button></a
+      >
+    </div>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("BW")) {
+          body.classList.remove("BW");
+        } else {
+          body.classList.add("BW");
+        }
+      }
+
+      let Theme = document.querySelector(".theme-button");
+      Theme.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
