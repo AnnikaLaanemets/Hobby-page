@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 850px;
+  width: 768px;
   opacity: 0.88;
   background-color: #f7f7f7;
   padding: 40px;
@@ -41,11 +41,11 @@ body {
   justify-content: center;
 }
 .bigpicture {
-  width: 500px;
+  width: 460px;
 }
 
 img {
-  width: 290px;
+  width: 270px;
   border: 2px solid #1abb9c;
   border-radius: 10px;
   transition: all 500ms ease-in-out;
@@ -74,7 +74,7 @@ h2 {
 }
 
 p {
-  padding: 20px;
+  padding: 15px;
 }
 
 .workout {
@@ -133,19 +133,21 @@ a {
   background-color: #f7f7f7;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 668px) {
   .container {
-    width: 450px;
-    padding: 20px;
+    width: 370px;
+    padding: 5px;
+    font-size: 20px;
   }
 
   .bigpicture {
-    width: 250px;
+    width: 215px;
+    padding: 0;
   }
   img {
     width: 120px;
   }
   p {
-    padding: 10px;
+    padding: 6px;
   }
 }
