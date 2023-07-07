@@ -135,19 +135,23 @@ a {
 
 @media (max-width: 668px) {
   .container {
-    width: 370px;
+    width: 350px;
     padding: 5px;
+    margin: 0 auto;
     font-size: 20px;
   }
 
   .bigpicture {
-    width: 215px;
+    width: 205px;
     padding: 0;
   }
   img {
-    width: 120px;
+    width: 100px;
   }
   p {
     padding: 6px;
+  }
+  .theme-button {
+    margin: 20px auto;
   }
 }
